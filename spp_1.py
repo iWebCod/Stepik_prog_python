@@ -17,3 +17,5 @@ print(2014.0**14)
 print(7/3)
 
 print(7//3)
+
+#https://github.com/snfrolov/Python-course-stepik.org-/blob/master/1.-Operators.-Variables.-Data-types.-Conditions/1.6
