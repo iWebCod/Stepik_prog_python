@@ -19,3 +19,5 @@ print(7/3)
 print(7//3)
 
 #https://github.com/snfrolov/Python-course-stepik.org-/blob/master/1.-Operators.-Variables.-Data-types.-Conditions/1.6
+
+print ("Привет")
