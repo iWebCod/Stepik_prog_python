@@ -31,10 +31,10 @@
 # с +=1
 # print("Итого:",с)
 
+#Ввод даты и имени
 name = input('Enter your name: ')
 print('Привет,', name)
-date_day = input('Введите дату вашего рождения: ')
+date_day = input('Введите дату вашего рождения DD: ')
 date_month = input('Введите месяц вашего рождения прописью: ')
-date_year = input('Введите год вашего рождения: ')
+date_year = input('Введите год вашего рождения YYYYY: ')
 print('Привет,', name, 'вы родились:',date_day,date_month,date_year,'Все верно?')
-
