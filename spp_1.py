@@ -64,3 +64,9 @@
 # a = True
 # b = False
 # print (a and b or not a and not b)
+
+x = int(input())
+if x % 2 == 0:
+    print('Четное')
+else:
+    print('Нечетное')
