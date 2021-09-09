@@ -31,10 +31,24 @@
 # с +=1
 # print("Итого:",с)
 
-#Ввод даты и имени
-name = input('Enter your name: ')
-print('Привет,', name)
-date_day = input('Введите дату вашего рождения DD: ')
-date_month = input('Введите месяц вашего рождения прописью: ')
-date_year = input('Введите год вашего рождения YYYYY: ')
-print('Привет,', name, 'вы родились:',date_day,date_month,date_year,'года Все верно?')
+# Ввод даты и имени
+# name = input('Enter your name: ')
+# print('Привет,', name)
+# date_day = input('Введите дату вашего рождения DD: ')
+# date_month = input('Введите месяц вашего рождения прописью: ')
+# date_year = input('Введите год вашего рождения YYYYY: ')
+# print('Привет,', name, 'вы родились:',date_day,date_month,date_year,'года Все верно?')
+
+# X = int(input())
+# Y = int(input())
+# print(X*60 + Y)
+
+# X = int(input())
+# print(int(X // 60))
+# print(int(X % 60))
+
+# x = int(input())
+# h = int(input())
+# m = int(input())
+# print((60*h+m+x) // 60)
+# print((60*h+m+x) % 60)
