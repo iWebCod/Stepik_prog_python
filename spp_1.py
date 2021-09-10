@@ -31,13 +31,13 @@
 # с +=1
 # print("Итого:",с)
 
-# Ввод даты и имени
-# name = input('Enter your name: ')
-# print('Привет,', name)
-# date_day = input('Введите дату вашего рождения DD: ')
-# date_month = input('Введите месяц вашего рождения прописью: ')
-# date_year = input('Введите год вашего рождения YYYYY: ')
-# print('Привет,', name, 'вы родились:',date_day,date_month,date_year,'года Все верно?')
+#Ввод даты и имени
+name = input('Введите ваше имя: ')
+print('Привет,', name)
+date_day = input('Введите дату вашего рождения (DD): ')
+date_month = input('Введите месяц вашего рождения (MM): ')
+date_year = input('Введите год вашего рождения (YYYYY): ')
+print('Привет,', name + ', ' + 'вы родились:',date_day +'.'+ date_month +'.'+ date_year,'г. Все верно?')
 
 # X = int(input())
 # Y = int(input())
@@ -72,8 +72,8 @@
 #     print('Нечетное')
 
 # Определяем високосный год или нет
-x = int(input())
-if ((x % 4 == 0) and not (x % 100 == 0)) or (x % 400 == 0):
-    print("Високосный")
-else:
-    print("Обычный")
+# x = int(input())
+# if ((x % 4 == 0) and not (x % 100 == 0)) or (x % 400 == 0):
+#     print("Високосный")
+# else:
+#     print("Обычный")
