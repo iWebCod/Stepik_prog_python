@@ -65,8 +65,15 @@
 # b = False
 # print (a and b or not a and not b)
 
+# x = int(input())
+# if x % 2 == 0:
+#     print('Четное')
+# else:
+#     print('Нечетное')
+
+# Определяем високосный год или нет
 x = int(input())
-if x % 2 == 0:
-    print('Четное')
+if ((x % 4 == 0) and not (x % 100 == 0)) or (x % 400 == 0):
+    print("Високосный")
 else:
-    print('Нечетное')
+    print("Обычный")
