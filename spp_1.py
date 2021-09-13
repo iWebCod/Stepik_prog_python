@@ -32,12 +32,12 @@
 # print("Итого:",с)
 
 #Ввод даты и имени
-name = input('Введите ваше имя: ')
-print('Привет,', name)
-date_day = input('Введите дату вашего рождения (DD): ')
-date_month = input('Введите месяц вашего рождения (MM): ')
-date_year = input('Введите год вашего рождения (YYYYY): ')
-print('Привет,', name + ', ' + 'вы родились:',date_day +'.'+ date_month +'.'+ date_year,'г. Все верно?')
+# name = input('Введите ваше имя: ')
+# print('Привет,', name)
+# date_day = input('Введите дату вашего рождения (DD): ')
+# date_month = input('Введите месяц вашего рождения (MM): ')
+# date_year = input('Введите год вашего рождения (YYYYY): ')
+# print('Привет,', name + ', ' + 'вы родились:',date_day +'.'+ date_month +'.'+ date_year,'г. Все верно?')
 
 # X = int(input())
 # Y = int(input())
@@ -77,3 +77,10 @@ print('Привет,', name + ', ' + 'вы родились:',date_day +'.'+ dat
 #     print("Високосный")
 # else:
 #     print("Обычный")
+
+a = int(input())
+b = int(input())
+c = a
+while ((a % b) != 0):
+    a += c
+print(a)
