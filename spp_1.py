@@ -114,14 +114,14 @@
 #     break
 #   print(x)
 
-import time
-password = '09121421'
-
-pass_int = int(password)
-t1 = time.time()
-for i in range(0, 10 ** len(password)):
-    if i == pass_int:
-        print('Пароль = "{:0{w}}"'.format(i, w=len(password)))
-        break
-print('Время в секундах =', time.time() - t1)
-print('Длина пароля =',len(password),'знаков')
+# import time
+# password = '09121421'
+#
+# pass_int = int(password)
+# t1 = time.time()
+# for i in range(0, 10 ** len(password)):
+#     if i == pass_int:
+#         print('Пароль = "{:0{w}}"'.format(i, w=len(password)))
+#         break
+# print('Время в секундах =', time.time() - t1)
+# print('Длина пароля =',len(password),'знаков')
