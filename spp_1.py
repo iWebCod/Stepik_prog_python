@@ -124,4 +124,4 @@ for i in range(0, 10 ** len(password)):
         print('Пароль = "{:0{w}}"'.format(i, w=len(password)))
         break
 print('Время в секундах =', time.time() - t1)
-print('Длина пароля =',len(password),'знаков')#123
+print('Длина пароля =',len(password),'знаков')
