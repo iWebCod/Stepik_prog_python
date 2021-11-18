@@ -134,16 +134,16 @@
 
 Следуйте формату вывода из примера, для разделения элементов внутри строки используйте '\t' — символ табуляции. Заметьте, что левым столбцом и верхней строкой выводятся сами числа из заданных отрезков — заголовочные столбец и строка таблицы.'''
 
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
-print('\t',end = '')
-for i in range(c,d+1):
-    print(str(i)+'\t',end = '')
-print()
-for i in range(a,b+1):
-    print(str(i)+'\t',end = '')
-    for k in range(c,d+1):
-        print(str(i * k)+'\t',end = '')
-    print()
+# a = int(input())
+# # b = int(input())
+# # c = int(input())
+# # d = int(input())
+# # print('\t',end = '')
+# # for i in range(c,d+1):
+# #     print(str(i)+'\t',end = '')
+# # print()
+# # for i in range(a,b+1):
+# #     print(str(i)+'\t',end = '')
+# #     for k in range(c,d+1):
+# #         print(str(i * k)+'\t',end = '')
+# #     print()
