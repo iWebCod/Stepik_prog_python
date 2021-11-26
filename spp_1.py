@@ -162,5 +162,22 @@
 # print(s/k)
 
 #Подсчет символов в строке
-fam = input()
-print(fam.count('А')) #функция count
+#fam = input()
+#print(fam.count('А')) #функция count
+
+# a=input().lower()
+# print(((a.count('g')+a.count('c'))/len(a))*100)
+
+# stroka = input()
+# dlina = len(stroka)
+# i=0
+# schetchik=1
+# kod = ''
+# while i< (dlina - 1):
+#     if stroka[i] == stroka[i+1]:
+#         schetchik += 1
+#     else:
+#         kod = kod + stroka[i] + str(schetchik)
+#         schetchik=1
+#     i+=1
+# print(kod + stroka[i] + str(schetchik))
