@@ -132,7 +132,7 @@
 
 Числа aa, bb, cc и dd являются натуральными и не превосходят 10, a \le ba≤b, c \le dc≤d.
 
-Следуйте формату вывода из примера, для разделения элементов внутри строки используйте '\t' — символ табуляции. Заметьте, что левым столбцом и верхней строкой выводятся сами числа из заданных отрезков — заголовочные столбец и строка таблицы.'''
+Следуйте формату вывода из примера, для разделения элементов внутри строки используйте '\t' — символ табуляции. Заметьте, что левым столбцом и верхней строкой выводятся сами числа из заданных отрезков — заголовочные столбец и stroka таблицы.'''
 
 # a = int(input())
 # # b = int(input())
@@ -181,3 +181,57 @@
 #         schetchik=1
 #     i+=1
 # print(kod + stroka[i] + str(schetchik))
+
+# stroka=[int(i) for i in input().split()]
+# if len(stroka)==1:
+#     print(stroka[0])
+# else:
+#     for i in range(len(stroka)-1):
+#         stroka2=stroka[i-1]+stroka[i+1]
+#         print(str(stroka2),end=" ")
+#     posl_element=stroka[0]+stroka[-2]
+#     print(posl_element)
+
+# stroka=sorted([int(i) for i in input().split()])
+# for i in stroka:
+#     if stroka.count(i)>1:
+#         print(i,end=" ")
+#         for j in range(stroka.count(i)-1):
+#             stroka.remove(i)
+
+#arr[col_len-1][row_len]+arr[col_len+1][row_len]+arr[col_len][row_len-1]+arr[col_len][row_len+1]
+# col_len=0
+# row_len=1
+# md=""
+# arr=[]
+# a0,b0,an,bn=0,0,0,0
+# # формируем матрицу
+# while row_len>0: # бесконечный цикл
+#     md=input().split() # разбиваем строку на элементы для добавления в список
+#     if "end" in md:
+#         row_len-=1
+#         break # если в строке попалось END, закрываем список
+#     else:
+#         if row_len==1:
+#             col_len=len(md)
+#         row_len+=1 # счетчик
+#         arr.append(md) # добавляем элементы строки в двухмерный список
+# # формируем нулевую матрицу
+# arr_sum = [[0 for j in range(col_len)] for i in range(row_len)]
+# # определяем в матрице элементы из суммы смежных
+# for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         if i-1<0: a0=row_len-1
+#         else: a0=i-1
+#         if j-1<0: b0=col_len-1
+#         else: b0=j-1
+#         if i+1>row_len-1: an=0
+#         else: an=i+1
+#         if j+1>col_len-1: bn=0
+#         else: bn=j+1
+#         arr_sum[i][j]= int(arr[a0][j])+int(arr[an][j])+int(arr[i][b0])+int(arr[i][bn])
+# # выводим новую матрицу на экран
+# for row in arr_sum:
+#     for elem in row:
+#         print(elem, end=' ')
+#     print()
