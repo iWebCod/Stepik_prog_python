@@ -31,7 +31,7 @@
 # с +=1
 # print("Итого:",с)
 
-#Ввод даты и имени
+# Ввод даты и имени
 # name = input('Введите ваше имя: ')
 # print('Привет,', name)
 # date_day = input('Введите дату вашего рождения (DD): ')
@@ -134,6 +134,7 @@
 
 Следуйте формату вывода из примера, для разделения элементов внутри строки используйте '\t' — символ табуляции. Заметьте, что левым столбцом и верхней строкой выводятся сами числа из заданных отрезков — заголовочные столбец и stroka таблицы.'''
 
+
 # a = int(input())
 # # b = int(input())
 # # c = int(input())
@@ -161,9 +162,9 @@
 #         k+=1
 # print(s/k)
 
-#Подсчет символов в строке
-#fam = input()
-#print(fam.count('А')) #функция count
+# Подсчет символов в строке
+# fam = input()
+# print(fam.count('А')) #функция count
 
 # a=input().lower()
 # print(((a.count('g')+a.count('c'))/len(a))*100)
@@ -199,7 +200,7 @@
 #         for j in range(stroka.count(i)-1):
 #             stroka.remove(i)
 
-#arr[col_len-1][row_len]+arr[col_len+1][row_len]+arr[col_len][row_len-1]+arr[col_len][row_len+1]
+# arr[col_len-1][row_len]+arr[col_len+1][row_len]+arr[col_len][row_len-1]+arr[col_len][row_len+1]
 # col_len=0
 # row_len=1
 # md=""
@@ -235,3 +236,8 @@
 #     for elem in row:
 #         print(elem, end=' ')
 #     print()
+
+#Пример функции
+# def f(n):
+#     return n * 10 + 5
+# print(f(f(f(10))))
